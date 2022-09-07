@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Presentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    <div class="editor">
+        <p id="pageNo">Slide: 1</p>
+        <textarea id="input" cols="80" rows="20">
+@title
+Fast Presentations
+
+@short
+Developed by Sujal Choudhari
+
+@long
+Easily create Presentations, just by text.
+This application will create beautiful slides for you.
+
+@image
+https://avatars.githubusercontent.com/u/85174767?v=4
+
+@background
+meeting
+
+@notes
+
+1. Put your content in the given manner.
+2. For Image and Background, you can either enter keywords or a link to your image. (Keep blank for none). It is suggested to use links.
+3. Once done writing, press the RENDER button to update changes.
+4. Scroll down to look at your presentation.
+5. Navigate between slides with A/D or Arrow Keys.
+        </textarea>
+        <p>
+            <button class="button-4" id="prevBtn" role="button">Prev</button>
+            <button class="button-4" id="nextBtn" role="button">Next</button>
+            <button class="button-3" id="playBtn" role="button">Render</button>
+        </p>
+    </div>
+
+    <div class="display">
+        <div id="presBackground"></div>
+        <div class="vertical-center">
+            <h1 class="display-elements" id="presTitle"></h1>
+            <img class="display-elements" id="presImage">
+            <p class="display-elements" id="presShort"></p>
+            <p class="display-elements" id="presLong">
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

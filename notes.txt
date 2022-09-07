@@ -1,0 +1,17 @@
+@title
+Presentations
+
+@short
+Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Nobis, cumque, reiciendis natus explicabo tempora harum doloribus fuga libero iste repellendus
+
+@long
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, cumque, reiciendis natus
+explicabo tempora harum doloribus fuga libero iste repellendus, dignissimos consectetur eius delectus debitis
+eaque adipisci ipsum omnis quisquam maxime ex provident odio reprehenderit? Rem nostrum at aperiam hic!
+
+@image
+source.unsplash.com/300x300/?random
+
+@background
+source.unsplash.com/600x600/?random
