@@ -76,8 +76,6 @@ class Page{
         if ( !image.startsWith("http") && !image.startsWith("www"))
         image = `https://source.unsplash.com/300x300/?${image}`;
 
-        if (title == "") title = "Thank You"
-
         return [title,short,long,image,background]
     }
 }
