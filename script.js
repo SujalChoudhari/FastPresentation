@@ -50,22 +50,22 @@ class Page{
         }
         
         for (let i=0; i <text.length; i++){
-            switch (text[i].shift()){
-                case "title":
-                    title = text[i].join("\n");
-                    break;
-                case "short":
-                    short = text[i].join("\n");
-                    break;
-                case "long":
-                    long = text[i].join("\n");
-                    break;
-                case "image":
-                    image = text[i].join("\n");
-                    break;
-                case "background":
-                    background = text[i].join("\n");
-                    break;
+            let tag = text[i].shift();
+
+            if (tag.startsWith("title")){
+                title= text[i].join("\n");
+            }
+            if (tag.startsWith("short")){
+                short= text[i].join("\n");
+            }
+            if (tag.startsWith("long")){
+                long = text[i].join("\n");
+            }
+            if (tag.startsWith("image")){
+                image = text[i].join("\n");
+            }
+            if (tag.startsWith("background")){
+                background= text[i].join("\n");
             }
         }
 

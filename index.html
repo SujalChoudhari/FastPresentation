@@ -37,6 +37,7 @@ meeting
 3. Once done writing, press the RENDER button to update changes.
 4. Scroll down to look at your presentation.
 5. Navigate between slides with A/D or Arrow Keys.
+    Touch/ Click on the left side of screen to go back, and right to load next.
         </textarea>
         <p>
             <button class="button-4" id="prevBtn" role="button">Prev</button>
@@ -44,7 +45,7 @@ meeting
             <button class="button-3" id="playBtn" role="button">Render</button>
         </p>
     </div>
-
+    
     <div class="display">
         <div id="presBackground"></div>
         <div class="vertical-center">
@@ -53,6 +54,10 @@ meeting
             <p class="display-elements" id="presShort"></p>
             <p class="display-elements" id="presLong">
             </p>
+        </div>
+        <div class="nav-container">
+            <button class="nav-btn" onclick="prevPage()"></button>
+            <button class="nav-btn" onclick="nextPage()"></button>
         </div>
     </div>
     <script src="script.js"></script>
